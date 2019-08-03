@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import './config/Reactotron.Config';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFF',
+    backgroundColor: '#FF3',
   },
   welcome: {
     fontSize: 20,
@@ -14,6 +16,8 @@ const styles = StyleSheet.create({
     margin: 10,
   },
 });
+
+console.tron.log('teste sistema');
 
 export default function App() {
   return (

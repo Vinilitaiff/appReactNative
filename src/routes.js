@@ -3,6 +3,7 @@ import { createAppContainer, createStackNavigator } from 'react-navigation';
 
 import Main from './pages/Main';
 import User from './pages/User';
+import Repository from './pages/Repository';
 
 const Routes = createAppContainer(
   // config para as rotas funcionarem
@@ -11,13 +12,14 @@ const Routes = createAppContainer(
       // tipo de configuracao de rota
       Main,
       User,
+      Repository,
     },
     {
       headerLayoutPreset: 'center',
       headerBackTitleVisible: false,
       defaultNavigationOptions: {
         headerStyle: {
-          backgroundColor: '#ff99bb',
+          backgroundColor: '#4078c0',
         },
         headerTintColor: '#FFF',
       },
